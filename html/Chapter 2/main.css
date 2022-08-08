@@ -1,0 +1,15 @@
+h1{
+    margin-left: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    height: fit-content;
+    width:fit-content;
+}
+.js{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#output{
+    background-color: aqua;
+    width: 100px;
+}

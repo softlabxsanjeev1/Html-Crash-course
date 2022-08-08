@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter_2</title>
+    <link rel="stylesheet" type = "text/css" href="main.css"/>
+    <script>
+        function init() {
+    var n = 0;
+    e = document.getElementById("output");
+    setInterval(function() { e.innerHTML = ++n; }, 1000);
+}
+window.onload = init;
+    </script>
+</head>
+<body>
+    <h1>HTML using javascript And Css</h1>
+    <p>
+        <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Obcaecati laboriosam asperiores veritatis, ipsa ratione officia quasi. Optio, fugiat. 
+        Quia maxime nesciunt nulla molestiae, eius repellat iure in sapiente officia debitis.
+        </pre>
+    </p><br>
+    <h1>Javascript </h1>
+    <h2 class="js">Counting no. <span id="output">0</span></h2>
+</body>
+</html>
