@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors in Css</title>
+        <link rel="stylesheet" href="style1.css">
+        <style>h1,h2,h3,h6{
+            background-color: burlywood;
+            color: darkblue;
+            width: 400px;;
+        }
+        marquee{
+            background-color: darkcyan;
+            height: 10%;
+            align-self: center;
+            margin-top: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: large;
+        }
+        #A01{
+            border: 30px;
+            border-style: groove;
+            border-width: 1cm;
+            border-color: darkred;
+            width: 6cm;
+            height: 2.5cm;
+        }
+        a:hover{
+            color: rgb(103, 139, 61);
+        }
+        #A03{
+            height: 4cm;
+            width: 20%;
+            color: red;
+            border: 50px;
+            border-color: deepskyblue;
+            background-color: gold;
+            text-decoration-color: indigo;
+            text-align:center;
+            font: size 100px; ;
+            border-radius: 50%;
+            text-align: center;
+            }
+            .A2>p{
+                color: red;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size:larger;
+            }
+            #A04 p{
+                font-size: 1cm;
+                color: darkmagenta;
+            }
+            p::first-letter{
+                font-size: 1cm;
+            }
+            h1::before{
+                content: Weldone;
+            }
+            iframe{
+                height: 350px;
+                width: 200px;
+                float: right;
+            }
+                        
+        </style>
+    </head>
+    <body>
+        <marquee>Welcome to Webdevelopment</marquee>
+        <h1>Sanjeev Kumar </h1>
+        <h2>Rahul Pasoriya</h2>
+        <h6>HArinder</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. assumenda, perferendis saepe in doloribus.</p>
+        <div class="A1" id="A01">
+            <a href="https://www.google.co.in/" target="blank">GOOGLE</a><br>
+            <a href="https://www.youtube.com/" target="blank">Youtube</a><br>
+            <a href="https://www.Gmail.com/" target="blank">Gmail-sign in</a><br>
+            <a href="https://www.tutorialspoint.com/whit0eboard.htm" target="blank">White Board</a><br><br><br>
+        </div>
+        <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document.<br> You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks.<br>
+                 When you create pictures, charts, or diagrams, they also coordinate with your current document look.</p>
+        <div class="A1" id="A02">
+            <p>A quick Brown Fox Jumping on The Lazy Dog.</p>
+            <p>A quick Brown Fox Jumping on The Lazy Dog.</p>
+            <p>A quick Brown Fox Jumping on The Lazy Dog.</p>
+            <p>A quick Brown Fox Jumping on The Lazy Dog.</p>
+            <p>A quick Brown Fox Jumping on The Lazy Dog.</p>
+        </div>
+        <div class="A2" id="A03">
+           <h4 style="margin: top 20px;;">Sanjeev Kumar</h4>
+        </div>
+        <div class="A2" id="A04">
+            <p>
+                My nmae is Sanjeev Kumar
+            </p></div>
+            <marquee><p><b><i> Bharti</i></b></p></marquee>
+            <iframe src="File_inputs.html" title="Sanjeev"></iframe>
+    </body>
+</html>

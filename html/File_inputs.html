@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>All input types in a form</title>
+        <STYle>
+            marquee,label{
+                color: solid black;
+                background-color: rgb(124, 245, 55);
+            }
+            .body{
+                margin-left: 60px;
+                margin-right: 30px;
+            }
+            .textarea {
+                margin-left: 20px;
+            }
+             </STYle>
+    </head>
+    <body>
+        <marquee><h1> SUBMIT YOUR PERSONAL INFORMATION </h1></marquee>
+        <input type="button" value="CLICK HERE"><br>
+        <label for="checkbox">Yes i am agree.</label>
+        <input type="checkbox" id="confirm" name="confirm"><br><br>
+        <input type="color" name="fvcolor" id="fvcolor" value="#ff0000"><br><br>
+        <input type="color" name="fvcolor" id="fvcolor" value="#ff6347"><br><br>
+        Date of birth: <input type="date" id="bithdate" name="birthdate"><br><br>
+        Date time : <input type="datetime-local" id="birthday" name="birthday"><br><br>
+        Email Address : <input type="email" id="email" name="email"><br><br>
+        <label for="photo">Select file </label>
+        <input type="file" name="photo" id="photo"><br><br>
+        Month and year : <input type="month"><br><br>
+        Password : <input type="password" id="password" name="password"><br><br>
+       <fieldset>
+        Select your Favourite Language : <br>
+                <input type="radio" id="language" name="fvlanguage" value="HTML">HTML<br>
+        <input type="radio" id="language" name="fvlanguage" value="CSS"> CSS<br>
+        <input type="radio" id="language" name="fvlanguage" value="Java Scriptt">Java Script
+        </fieldset>
+        <label for="vol">Volume</label>
+        <input type="range" name="vol" id="vol" min="0" max="10"><br><br>
+        <label for="gsearch">Search :</label>
+        <input type="search" id="gsearch" name="gsearch"><br><br>
+        <label for="phone">Phone Number</label>
+        <input type="tele" id="phone" name="phone" placeholder="123-456-366" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br><br>
+        <label for="fname">First name :</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="time"><br><br>
+        <label for="week"></label>
+        <input type="week" id="week" name="week"><br><br>
+        <label for="url">URL :</label>
+        <input type="url" id="url" name="url"><br><br>
+        <label for="reset">Reset :</label>
+        <input type="reset" name="reset" id="reset"><br><br>
+        <label for="submit">Submit :</label>
+        <input type="submit" name="submit" id="submit">
+        <br><br><br><br><br><br>
+        <marquee><h2><u><i>HTML INPUT ATTRIBUTES</i></u></h2></marquee>
+        <label for="name"> Name :</label>
+        <input type="text" id="name" name="name" value="john"><br><br>
+        <div class="cant" >
+            <label for="adress">Adress</label><br>
+         <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+            
+        </div>
+        <label for="random">Value not changed :</label>
+        <input type="text" id="randomS" name="randomm" value="Son"><br><br>
+        <label for="disable">Disable</label>
+        <input type="text" id="disable" name="disable" value="Sanjeev" disable><br><br>
+        <label for="framesize ">Width of input frame :</label>
+        <input type="text" id="framesize" name="framesize" size="4"><br>
+Width of input frame2 : <input type="text" id="framesize2" name="framesize2" size="8">
+<label for="maxlength">Maximum Length of input field :</label>
+<input type="text" id="maxlength" name="maxlength" maxlength="9" size="2"><br><br>
+Card Type :<select name="cardtype" id="cardtype">
+    <option value="">Select Any One</option>
+    <option value="Visa">Visa</option>
+    <option value="Rupee">Rupee</option>
+    <option value="Mastercard">Mastercard</option>
+</select>
+</body>
+
+</html>
