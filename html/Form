@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Login deails</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 100px auto;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: rgb(85, 83, 80);
+            color:white;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        
+        input[type="email"],
+        input[type="password"] {
+            width: 60%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        
+        .remember-me {
+            margin-top: 10px;
+        }
+        
+        button {
+            background-color:white;
+            color:black;padding: 10px 20px;
+            border: none;
+        
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img{
+            height: 100px;
+            margin-left: 38%;
+            margin-right: auto;
+            
+        }
+        label{
+            margin-bottom: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        form{
+            /* padding: 15%; */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Login Details</h1>
+
+<div><img src="link image url here" alt="img_1"></div>
+
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"  required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label class="remember-me">
+                <input type="checkbox" name="remember" id="remember">
+                Remember me
+            </label>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <footer>
+            &copy; 2023 All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
